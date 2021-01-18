@@ -12,4 +12,6 @@ public enum RuchRobota {
     RuchRobota(int procentBaterii) {
         this.procentBaterii = procentBaterii;
     }
+
+
 }
