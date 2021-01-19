@@ -40,7 +40,7 @@ public class Main {
     public static void komendy(String[] polecenie, Robot robot) {
         switch (polecenie[0]) {
             case "naladuj" :
-                robot.wlaczRobota();
+                robot.naladujRobota();
                 break;
             case "wylacz":
                 robot.wylaczRobota();
